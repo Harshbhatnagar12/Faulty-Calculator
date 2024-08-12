@@ -14,14 +14,14 @@ let obj = {
     "/":"**",
 }
 
-// They print right Result when result is less then 0.1
+// They print right Result when random is greater then 0.1
 if (random > 0.1)
 {
     console.log(`The result is ${a} ${c} ${b}`)
     alert(`The result is ${eval(`${a} ${c} ${b}`)}`)
 }
 
-// They print wrong Result when the result is greater then 0.1 
+// They print wrong Result when the random is less than  0.1 
 else
 {
     c = obj[c]
